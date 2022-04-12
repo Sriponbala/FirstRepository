@@ -111,38 +111,3 @@ public class AllLevels extends College
 
 
 
-
-
-/*class class1{
-	void ex1() {
-		System.out.println("example 1");
-	}
-	static {
-		System.out.println("static block of class1");
-	}
-	{
-		System.out.println("Instance block of class1");
-	}
-}
-class class2 extends class1{
-	void ex2() {
-		System.out.println("example 2");
-	}
-	static {
-		System.out.println("static block of class2");
-	}
-	{
-		System.out.println("Instance block of class2");
-	}
-}
-public class MultilevelInheritance extends class2 {
-	static {
-		System.out.println("static block of class3");
-	}
-	public static void main(String[] args) {
-		MultilevelInheritance obj = new MultilevelInheritance();
-		MultilevelInheritance obj1 = new MultilevelInheritance();
-		obj.ex1();
-		obj.ex2();
-	}
-}*/
