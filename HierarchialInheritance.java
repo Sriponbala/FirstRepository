@@ -1,12 +1,12 @@
 package oops;
 
-class Bank
+class Account
 {
      private long account_no;
      private float balance;
      String bank_name , customer_name ;
      
-     Bank(String bank_name , String customer_name)
+     Account(String bank_name , String customer_name)
      {
     	 this.bank_name = bank_name;
     	 this.customer_name = customer_name ;
@@ -26,7 +26,7 @@ class Bank
 	 }
   
 }
-class SavingsAccount extends Bank
+class SavingsAccount extends Account
 {
 	SavingsAccount(String bank_name, String customer_name) {
 		super(bank_name, customer_name);
@@ -40,7 +40,7 @@ class SavingsAccount extends Bank
 	}
 	
 }
-class CurrentAccount extends Bank
+class CurrentAccount extends Account
 {
 	CurrentAccount(String bank_name, String customer_name) {
 		super(bank_name, customer_name);
